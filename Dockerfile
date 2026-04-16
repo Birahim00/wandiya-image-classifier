@@ -1,7 +1,7 @@
 # ── Dockerfile for Intel Image Classifier (Flask)
 # CPU build by default; swap base image for CUDA builds.
 
-FROM python:3.12
+FROM python:3.12-slim
 
 # Configuration pour éviter les invites interactives
 ENV DEBIAN_FRONTEND=noninteractive
